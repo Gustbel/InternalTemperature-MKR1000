@@ -1,10 +1,9 @@
-# ElectronicCats Internal Temperature Zero
+# InternalTemperature - MKR1000
 
-Arduino library for internal temperature of the family SAMD21 and SAMD51
+This repository is a fork of https://github.com/ElectronicCats/ElectronicCats_InternalTemperatureZero . The problem with the repository named above is that it is not prepared to correctly display the **Internal Temperature of the Arduino MKR1000** development board, but after making some small adjustments to the code, the Internal Temperature of this development board can be read correctly, this repository does this. 
 
-### Quick Installing
+Please ignore the *Arduino Zero* name, this repository is for *Arduino MKR1000*.
 
-To install, use the Arduino Library Manager and search for "Electronic Cats Internal Temperature Zero Library" and install the library.
 
 ### Manual Installing
 To install this library:
@@ -20,16 +19,11 @@ For more info, see https://www.arduino.cc/en/Guide/Libraries
 
 ## Features of this version
 
-- Support for SAMD21 and SAMD51
+- Support for Arduino MKR1000
 
-### Maintainer
+### About
 
-<a href="https://github.com/sponsors/ElectronicCats">
-  <img src="https://electroniccats.com/wp-content/uploads/2020/07/Badge_GHS.png" height="104" />
-</a>
-
-
-Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
+All thanks go to **Electronic Cats**!, I just made a small modification for compatibility.
 
 ### License
 

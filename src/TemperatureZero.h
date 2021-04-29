@@ -39,9 +39,9 @@ class TemperatureZero
     void enableUserCalibration();
     void disableUserCalibration();
     uint16_t readInternalTemperatureRaw();
-#ifdef SAMD21
+
     float raw2temp (uint16_t adcReading);
-#endif
+
 #ifdef __SAMD51__
     float raw2temp(uint16_t TP, uint16_t TC);
 #endif
